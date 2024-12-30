@@ -1,7 +1,7 @@
 <?php
-include 'includes/db_connect.php'; // Menghubungkan ke database
+include 'includes/db_connect.php'; 
 
-// Proses tambah data siswa
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nama = $_POST['nama'];
     $alamat = $_POST['alamat'];
